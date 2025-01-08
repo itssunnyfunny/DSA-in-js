@@ -1,8 +1,14 @@
 // do lot of array and str functions 
 const arr = [1,2,45,5,34,5,67,7,6];
 
+
+
+// @@@@ returning or converting to string @@@@ //
+
 //1 length
+
 //console.log(arr.length);
+
 
 //2 toString = return a string
 
@@ -10,13 +16,14 @@ const arr = [1,2,45,5,34,5,67,7,6];
 
 
  //3 at - what is the value at index
-
- console.log(arr.at(2));
+ arr.at(4)
 
  //4 join - return a string
 
   const jin = arr.join('@')
 
+
+  // @@@@@@@@@@@ removing adding into the array @@@@@@@@@@@@ //
 
   //5 pop() - remove the last elm of the attach array
 
@@ -36,9 +43,19 @@ arr.shift()
 
 arr.unshift(1)
 
+// @@@@@@ Merging Arrays @@@@@@ //
+
+//9 concat() - returning new array with two arrays or new elm
+
+const arr2 = [0, 0, 0, 0,0]
+const arr3 = [1,0,1,0,1,0,1]
+
+const newArr = arr.concat(arr2,arr3,100000)
+// console.log(newArr);
+
+// 10
 
 
-//9 
 
 
   
