@@ -53,7 +53,22 @@ const arr3 = [1,0,1,0,1,0,1]
 const newArr = arr.concat(arr2,arr3,100000)
 // console.log(newArr);
 
-// 10
+// 10 splice() - cutting / removing the elem
+arr.splice(0,1);
+// console.log(arr);
+// adding new elem and canbe deleted samutationaly 1) index, 2) nub of elem that is removed ,3) after 2) all the arguments as new elems 
+
+arr.splice(1,1, 12,43)
+// console.log(arr);
+
+
+//11 slice() - creating a new array with the elem of another array 
+
+const narr = [12,34,12,645,54,65,3434,3434,34331,657,3432273,]
+
+const narr1 = narr.slice(0,5)
+console.log(narr1);
+
 
 
 
