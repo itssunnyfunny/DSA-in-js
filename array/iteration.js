@@ -18,6 +18,20 @@ arr.forEach(myfunction)
 
  const fltArr = newArr.filter((n)=> n<40)
 
- console.log(fltArr);
+//  console.log(fltArr);
+
+ // 4 flatMap() - map over a array then creates new array with flatting the array
+ const fatArr =  arr.flatMap((n)=> n*2)
+//  console.log(fatArr);
+
+//5 reduce() - return a value from the array with a given intial value first argument(n) is intial value
+
+const sum = arr.reduce((n,e)=> {return n+e},10)
+// console.log(sum);
+
+
+
+ 
+
  
  
