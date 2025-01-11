@@ -52,6 +52,29 @@ const rsum = arr.reduceRight((n,e)=> n+e)
 //  console.log(isThat);
 
 
+// 9  Array.from() - create a array from a given string 
+
+ const str = "shani yadav"
+
+  const strArr = Array.from(str)
+//   console.log(strArr);
+
+
+  //10 with() - enter the elem in the given array without alter the original array / in 2023
+
+  const months = ['january' , 'fabruary', 'marc', 'April'];
+
+//  const newMonths =months.With(2,'march')
+//  console.log(newMonths); 
+// not supported currentlly
+
+// 11 spread(...) spreading the given array and do what is you want
+
+ const newArray = [...age, 0,0,43,0, ...arr]
+ console.log(newArray);
+ 
+ 
+  
  
  
 
