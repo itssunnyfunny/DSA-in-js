@@ -9,4 +9,15 @@ arr.forEach(myfunction)
  }
 // console.log(text);
 
+//2 map() - it creates new array with performing a function of it
 
+ const newArr = arr.map((n)=> n*10)
+//  console.log(newArr);
+
+ //3  filter - create a new array with the elm who passes the test(certain conditions)
+
+ const fltArr = newArr.filter((n)=> n<40)
+
+ console.log(fltArr);
+ 
+ 
