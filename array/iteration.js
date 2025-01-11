@@ -31,6 +31,28 @@ const sum = arr.reduce((n,e)=> {return n+e},10)
 
 
 
+// 6 reduceRight() - similar to reduce 
+
+const rsum = arr.reduceRight((n,e)=> n+e)
+
+//  console.log(rsum);
+
+ //////////////
+
+ // 7 every() - return boolean according to condition given if all elem passes it will return true
+
+ const age = [12,43,65,17,18,54]
+
+ const isThis = arr.every((n)=>n>18)
+//  console.log(isThis);
+
+ //8 some() - same as every but if any elem passes the conditin it will return true
+
+ const isThat = age.some((n)=> n>18)
+//  console.log(isThat);
+
+
+ 
  
 
  
