@@ -32,6 +32,14 @@ let indFirst = num.findIndex((n)=> n>18)
 
 // console.log(indFirst);
 
+ 
+// 6 findLast() - returning the   last elem if pase the condition
+
+// not supported in the node currently 
+
+// 7 findlastIndex()- as acpected but not supporting currently
+
+
 
 
 
