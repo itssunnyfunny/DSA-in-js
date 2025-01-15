@@ -18,6 +18,22 @@ let secondPst = fruits.lastIndexOf("orange")
 let isPresent = fruits.includes("mango")
 // console.log(isPresent);
 
-// 4 
+// 4 find () - returning the elem if passees the condition 
+
+let num = [1,2,43,4,,6,7,7]
+
+let first = num.find((n)=> n>18);
+
+// console.log(first);
+
+// 5 findIndex() - returning the index of elem if passess the condition
+
+let indFirst = num.findIndex((n)=> n>18)
+
+// console.log(indFirst);
+
+
+
+
 
 
