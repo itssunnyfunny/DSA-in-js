@@ -12,3 +12,12 @@ let Position = fruits.indexOf("banana");
 let secondPst = fruits.lastIndexOf("orange")
 // console.log(secondPst);
 
+
+//3 includes() - returning boolean according to the  elm present or not
+
+let isPresent = fruits.includes("mango")
+// console.log(isPresent);
+
+// 4 
+
+
