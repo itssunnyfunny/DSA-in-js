@@ -22,4 +22,19 @@ const fruits = ["banana", "orange", "apple", "mango"];
 // not supprted in my node yet
 
 
+// Numeric Sort
+
+// 5 sort()-  the array contains num
+const nub = [1,45,657,199, 4, 2,]
+// sorting accendinglly
+nub.sort((a, b)=> a-b)
+// console.log(nub);
+
+// 6 sort() - in decending order
+
+nub.sort((a,b)=> b-a)
+
+console.log(nub);
+
+
 
