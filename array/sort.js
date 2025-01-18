@@ -59,8 +59,22 @@ function maxValue(arr) {
 
 
 const max = maxValue(nub)
-console.log(max);
+// console.log(max);
 
 
+// 10
+// ### Fisher Yales Method ### //
 
+let points = [23, 5334, 6, 3, 25, 71, 3];
 
+console.log("Original array:", points);
+
+for (let i = points.length - 1; i > 0; i--) { // i-- is the correct i write i++ by mistake that runs infinite loop
+  let j = Math.floor(Math.random() * (i + 1));
+  console.log(`Swapping index ${i} with index ${j}`);
+  let k = points[i];
+  points[i] = points[j];
+  points[j] = k;
+}
+
+console.log("Shuffled array:", points);
