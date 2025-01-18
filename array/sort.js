@@ -78,3 +78,5 @@ for (let i = points.length - 1; i > 0; i--) { // i-- is the correct i write i++ 
 }
 
 console.log("Shuffled array:", points);
+
+
