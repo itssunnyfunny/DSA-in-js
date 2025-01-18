@@ -34,7 +34,25 @@ nub.sort((a, b)=> a-b)
 
 nub.sort((a,b)=> b-a)
 
-console.log(nub);
+// console.log(nub);
+
+// 7 sort() - randomly 
+
+nub.sort(function(){return 0.5 - Math.random()})
+
+// console.log(nub);
+
+// 8 find min value() - 
+function minValue(arr) {
+    return Math.min.apply(null, arr)
+}
+
+const min = minValue(nub)
+// console.log(min);
+
+
+
+
 
 
 
