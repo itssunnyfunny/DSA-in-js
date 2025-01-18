@@ -51,7 +51,15 @@ const min = minValue(nub)
 // console.log(min);
 
 
+// 9 find the max value of given array
 
+function maxValue(arr) {
+    return Math.max.apply(null, arr)
+}
+
+
+const max = maxValue(nub)
+console.log(max);
 
 
 
