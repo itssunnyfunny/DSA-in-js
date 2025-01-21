@@ -1,5 +1,5 @@
 // 1 sum of given array
-const arr = [1,2,3,5,5]
+const arr = [1,2,3,5,5,2,,2,2,2]
 
 function sumOfAll(arr) {
   return  arr.reduce((p, a)=> a+p)
@@ -36,5 +36,21 @@ function reverse(arr) {
 }
 const reversed = reverse(arr)
 
-console.log(reversed);
+
+
+
+
+// 5 calculate the occurance of a num
+
+function countOcc(arr, num) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === num) {
+            count ++;
+        }
+        
+    }
+    return count;
+}
+
 
