@@ -40,7 +40,7 @@ const reversed = reverse(arr)
 
 
 
-// 5 calculate the occurance of a num
+// 5 calculate the occurrence of a num
 
 function countOcc(arr, num) {
     let count = 0;
