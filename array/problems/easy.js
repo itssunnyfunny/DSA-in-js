@@ -7,6 +7,8 @@ function sumOfAll(arr) {
 
 
 //2 max value in a array
+//2 max value in a arrayW
+//2 max value in a array
 
 function maxVal(arr) {
     return Math.max.apply(null, arr)
